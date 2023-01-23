@@ -8,8 +8,11 @@ else it will write it on the file_path that you have specified as parameter and 
 
 New Syscall added to linux-5.8.1
 tested with these following configs :
+
 arch: x86
+
 distro : Ubuntu-20.04
+
 vmbox 7.0
 
 to use this new patch do the following steps : 
