@@ -10,8 +10,9 @@
 
 int main(int argc, char *argv[])
 {
+	int pid = 1527;
 	long res;
-	res = syscall(__hamta, 1527, "proc.txt");
+	res = syscall(__hamta, pid, "proc.txt");
 	if(res < 0)
 	{
 		printf("sorry %ld", res);
