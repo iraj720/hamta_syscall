@@ -1,7 +1,9 @@
 # hamta_syscall
 
 hamta_syscall is a new syscall on kernel 5.8.1 that accepts 2 parameters(pid, file_path)
+
 it will check whether that pid is running or not (by checking task_list of kernel) 
+
 if it does exist it will return 1
 else it will write it on the file_path that you have specified as parameter and return 0
 
