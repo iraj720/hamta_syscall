@@ -26,5 +26,6 @@ to use this new patch do the following steps :
 6. apply all patches
 7. make && make modules_install && make install && sudo update-grub 
 8. then reboot your machine (sudo shutdown -r now)
-9. open test.c and set pid whatever you want (check pids with "ps aux") 
-10. test the test.c file with gcc (gcc -o test test.c && sudo ./test)
+10. choose new kernel from grub menu
+11. open test.c and set pid whatever you want (check pids with "ps aux") 
+12. test the test.c file with gcc (gcc -o test test.c && sudo ./test)
